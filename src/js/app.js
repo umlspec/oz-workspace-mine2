@@ -128,8 +128,8 @@ var App = {
         var _from, _to;
         var flip = false;
 
-      //  var newTime = timeChange(time);
-        var newTime = timeConverter.timeChange(time);
+        var newTime = timeChange(time);
+       // var newTime = timeConverter.timeChange(time);
 
         if (from == App.account){
             _from = 'Me';
