@@ -256,7 +256,7 @@ $(function(){
     })
 })
 
-/*
+
 var timeChange = function (UNIX_timestamp){
   var a = new Date(UNIX_timestamp * 1000);
   var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -269,7 +269,7 @@ var timeChange = function (UNIX_timestamp){
   var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
   return time;
 };
-*/
+
 
 //problem 1 : last two events are added with option watch({},{})
 
